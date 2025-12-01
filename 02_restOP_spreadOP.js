@@ -1,57 +1,34 @@
 // Rest operator is used when we have more than two arguments for operation denoted by ...args:
 // Example:
-    function sum(a,b,c,d,e){
-     let total = 0;
-     for (let i in arguments){
-      total += arguments[i];
-     }
-     console.log(total);
-}
-sum(1,2,3,4,5);
-
-// Now if we have
-
-// if we have only number arguments for addition:
-// function sum(a,b,c){
-//       let total = 0;
-//       for (let i in arguments){
-//         total+=arguments[i];
-//       }
-//       console.log(total)
-//     }
-//     sum(23,23,23);
-// // Now if we have a string in the same case:
-// function result(name,...args){
-//   let sum = 0;
-//   for(let i in args){
-//     sum += args[i];
-//   }
-//   console.log(`Hello ${name}: Your total is ${sum}`)
+//     function sum(a,b,c,d,e){
+//      let total = 0;
+//      for (let i in arguments){
+//       total += arguments[i];
+//      }
+//      console.log(total);
 // }
-// result("ali",21,12,12,12,1,2,12)
-// result("Akbar",21,12,12,12,1,2,12)
+// sum(1,2,3,4,5);
 
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
+// Now if we have a string alongside the numbers then:
+// function result(name, ...args){
+//   total = 0;
+//   for(let i in args){
+//     total += args[i];
+//   }
+//   console.log(`hello ${name} your result is ${total}%`)
+// }
+// result("ahmed", 12,12,12,12,12,12,1,2)
 
-  greet() {
-    console.log(`Hello, I'm ${this.name}`);
-  }
-}
 
-class Student extends Person {
-  constructor(name, rollNo) {
-    super(name); // calls Person constructor
-    this.rollNo = rollNo;
-  }
-
-  study() {
-    console.log(`${this.name} is studying`);
-  }
-}
-
-const student1 = new Student("Ali", 123);
-student1.greet(); // inherited method
-student1.study(); // child method
+// Spread operator is used when we want to do operation on arrays:
+// Example:
+// function result(name,...args){
+//   total = 0;
+//   for(let i in args){
+//     total+=args[i];
+//   }  
+//   console.log(`hello ${name} your marks are ${total}`);
+// }
+// let arr = [1,2,3,4,5,6,7,7,8]
+// result("ahad",...arr)
+// same method as rest op but only arrays involved before function values calling:
