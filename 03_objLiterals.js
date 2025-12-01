@@ -20,3 +20,17 @@
 //   [c] : "BSIT"
 // }
 // console.log(obj)
+
+// let name = "ali";
+// let age = 45;
+// let course = "BSSE"
+// let obj = {
+//   name,
+//   age,
+//   course,
+//   detail : function(){
+//     return(`HEllo ${name} your course is ${course}`)
+//   }
+
+// }
+// console.log(obj.detail())
