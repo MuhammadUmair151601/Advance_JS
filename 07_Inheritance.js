@@ -18,3 +18,27 @@
 
 // document.write(`<h3>Normal Student:</h3> ${JSON.stringify(student1)} <br>`);
 // document.write(`<h3>Special Student:</h3> ${JSON.stringify(student2)} <br>`);
+
+
+// #problem #2
+// class employee{
+//   constructor(name,age,salary){
+//     this.name = name;
+//     this.age = age;
+//     this.salary = salary;
+//   }
+// }
+// class Manager extends employee{
+//   constructor(name,age,salary,Ta,Ma,total){
+//     super(name,age,salary)
+//     this.Ta = 5000;
+//     this.Ma = 4000;
+//     this.total = salary + Ta + Ma;
+//   }
+// }
+
+// const emp = new employee("ali",34,25000)
+// const man = new Manager("ahmed",33,25000,3404,3404)
+
+// document.write(`<h1>employee salary:</h1> ${JSON.stringify(emp)}`)
+// document.write(`<h1>manager salary:</h1> ${JSON.stringify(man)}`)
