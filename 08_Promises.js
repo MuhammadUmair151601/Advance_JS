@@ -18,21 +18,21 @@
 // });
 // console.log(prom)
 
-function prom(complete){
-  return new Promise(function(resolve,reject){
-  if(complete){
-    resolve("i am passed")
-  }
-  else{
-    reject("i am failed")
-  }
-});
-}
-let onfulfilment = (result) =>{
-  console.log(result)
-}
-let onRejection=(error)=>{
-  console.log(error)
-}
-prom(false).then(onfulfilment);
-prom(false).then(onRejection)
+// function prom(complete){
+//   return new Promise(function(resolve,reject){
+//   if(complete){
+//     resolve("i am passed")
+//   }
+//   else{
+//     reject("i am failed")
+//   }
+// });
+// }
+// let onfulfilment = (result) =>{
+//   console.log(result)
+// }
+// let onRejection=(error)=>{
+//   console.log(error)
+// }
+// prom(false).then(onfulfilment);
+// prom(false).then(onRejection)
