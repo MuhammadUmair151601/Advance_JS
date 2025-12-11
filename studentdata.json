@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Khan",
+    "age": 20,
+    "class": "BSCS",
+    "city": "Peshawar"
+  },
+  {
+    "id": 2,
+    "name": "Umair Ahmed",
+    "age": 22,
+    "class": "BSSE",
+    "city": "Islamabad"
+  },
+  {
+    "id": 3,
+    "name": "Ayesha Noor",
+    "age": 19,
+    "class": "BSIT",
+    "city": "Lahore"
+  },
+  {
+    "id": 4,
+    "name": "Hamza Ali",
+    "age": 21,
+    "class": "BSCS",
+    "city": "Karachi"
+  },
+  {
+    "id": 5,
+    "name": "Hassan Raza",
+    "age": 23,
+    "class": "BSSE",
+    "city": "Quetta"
+  },
+  {
+    "id": 6,
+    "name": "Fatima Shaikh",
+    "age": 20,
+    "class": "BSIT",
+    "city": "Multan"
+  },
+  {
+    "id": 7,
+    "name": "Zain Malik",
+    "age": 22,
+    "class": "BSCS",
+    "city": "Rawalpindi"
+  },
+  {
+    "id": 8,
+    "name": "Sana Tariq",
+    "age": 21,
+    "class": "BSSE",
+    "city": "Faisalabad"
+  },
+  {
+    "id": 9,
+    "name": "Bilal Ahmed",
+    "age": 24,
+    "class": "BSIT",
+    "city": "Hyderabad"
+  },
+  {
+    "id": 10,
+    "name": "Maryam Gul",
+    "age": 19,
+    "class": "BSCS",
+    "city": "Sialkot"
+  }
+]
