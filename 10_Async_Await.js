@@ -3,12 +3,20 @@
 
 // Example:
 // async function loadstudent (){
+//   // declare a function of loadstudent
 //   return fetch("studentdata.json")
+//   // fetch data from studentdata file
 //   .then(response => response.json())
+//   // conver the response of the server to json form
 //   .then(data => {
+//     // show the data in console
 //     console.log(data);
 //     return data;
 //   })
 // .catch(error=> console.error("failed to load data",error));
+// // if any error found make a statement
 // }
 // loadstudent();
+
+
+
